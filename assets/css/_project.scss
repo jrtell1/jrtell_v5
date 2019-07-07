@@ -1,0 +1,43 @@
+.project-item {
+  @apply relative;
+}
+
+.project-item::after {
+  transition: 0.3s ease;
+  content: '';
+  left: 1rem;
+  top: 1rem;
+  right: -1rem;
+  bottom: 4rem;
+  z-index: -1;
+
+  @apply absolute shadow-lg rounded-lg border;
+}
+
+.project-item:hover::after,
+.project-item:focus::after,
+.project-item:active::after {
+  left: -1rem;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+}
+
+.project-item__details {
+  opacity: 0;
+}
+
+.project-item:hover .project-item__details {
+  animation: fade-in 300ms ease forwards;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
