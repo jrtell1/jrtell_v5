@@ -31,6 +31,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    color: #35495e;
   }
 
   *,
@@ -68,7 +69,6 @@
     font-weight: 300;
     color: #fff;
     word-spacing: 5px;
-    padding-bottom: 15px;
     transition: all .25s ease-out;
     white-space: nowrap;
     @apply text-5xl;
