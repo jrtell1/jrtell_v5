@@ -6,9 +6,12 @@
     <h2 class="text-xl">{{ title }}</h2>
     <div class="project-item__details">
       <div class="p-2">{{ description }}</div>
-      <button class="w-full block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+      <nuxt-link
+        to="/projects/hemlagat"
+        class="w-full block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+      >
         Read more
-      </button>
+      </nuxt-link>
     </div>
   </div>
 </template>
