@@ -3,7 +3,7 @@
     <div class="header py-6 h-48" :class="$route.name">
       <transition-group tag="div" class="relative max-w-5xl mx-auto">
         <img
-          class="portrait absolute rounded-full shadow-lg h-48"
+          class="portrait absolute rounded-full shadow-lg h-48 pointer-events-none"
           src="https://res.cloudinary.com/jrtell/image/upload/w_200,h_200,c_fill,g_face,f_auto/v1552242769/jrtell/Snapchat-1254887129"
           alt="Me"
           key="portrait"
