@@ -139,26 +139,26 @@
   }
 
   .subtitle {
-    top: 35px;
+    top: 30px;
     left: -5px;
     transform: scale(0.45);
   }
 
   @screen sm {
     .portrait {
-      top: -40px;
+      top: -20px;
       left: -30px;
       transform: scale(0.55);
     }
 
     .title {
-      top: -30px;
+      top: -10px;
       left: 0px;
       transform: scale(0.55);
     }
 
     .subtitle {
-      top: 35px;
+      top: 55px;
       left: 45px;
       transform: scale(0.55);
     }
