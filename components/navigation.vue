@@ -18,16 +18,24 @@
 
 <style scoped>
   .navigation {
-    @apply bg-gray-200 fixed inset-x-0 bottom-0 z-10;
+    @apply bg-white border-t fixed inset-x-0 bottom-0 z-10;
   }
 
   .spacer {
     @apply hidden;
   }
 
+  .nuxt-link-exact-active {
+    @apply bg-gray-200;
+  }
+
   @screen md {
     .navigation {
-      @apply static;
+      @apply static bg-gray-200 border-0;
+    }
+
+    .nuxt-link-exact-active {
+      @apply bg-gray-300;
     }
 
     .spacer {
@@ -42,9 +50,5 @@
 
   .link:hover {
     @apply underline bg-gray-300;
-  }
-
-  .nuxt-link-exact-active {
-    @apply bg-gray-300;
   }
 </style>
