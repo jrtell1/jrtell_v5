@@ -14,9 +14,19 @@
 </template>
 
 <script>
+  import anime from 'animejs';
+
   export default {
     name: 'project-item',
 
-    props: ['title', 'imageSrc', 'description']
+    props: ['title', 'imageSrc', 'description'],
+
+    methods: {
+      onHover() {
+        anime({
+
+        });
+      }
+    }
   };
 </script>
