@@ -21,8 +21,24 @@
       <div class="project__content">
         <h2 class="project__title">Secret Project - Work In Progress</h2>
         <p>
-          A personal project I've been working on for almost a year. Soon ready for an initial release.<br>
-          Built as a PWA (Progressive Web Application). A platform for direct trade between local producers and consumers in communities.
+          A personal project I've been working on for over a year. Soon ready for an initial release.<br>
+          Built as a PWA (Progressive Web Application). A platform for direct trade between local producers and consumers in communities.<br>
+          My largest personal project yet, architecture consists of a Lumen API backend, seperate node server with websockets for real-time updates to clients
+          and Nuxt.js frontend with tailwind.css.<br>
+          Everything runs on Docker behind a Nginx proxy.
+        </p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__image">
+        <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1565695116/jrtell/nordland">
+      </div>
+      <div class="project__content">
+        <h2 class="project__title">Nordland - Work In Progress</h2>
+        <p>
+          A personal browser-based online game I've been working on when I haven't felt like working on any other projects.<br>
+          Built as a PWA (Progressive Web Application). Frontend is Nuxt.js with a Sailsjs backend.
         </p>
       </div>
     </div>
@@ -57,7 +73,7 @@
   }
 
   .project__image {
-    @apply rounded-lg overflow-hidden h-40 w-64 shadow-lg flex-shrink-0;
+    @apply rounded-lg overflow-hidden h-auto w-64 shadow-lg flex-shrink-0;
   }
 
   .project__title {
