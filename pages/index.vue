@@ -4,7 +4,7 @@
       <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
         <div class="flex flex-col justify-center">
           <h2 class="second-subtitle text-3xl px-4">
-            I build websites and full-featured web applications.
+            I build websites and fully-featured web applications.
           </h2>
 
           <div class="flex items-center justify-center">
