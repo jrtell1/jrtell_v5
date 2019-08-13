@@ -43,4 +43,8 @@
   .link:hover {
     @apply underline bg-gray-300;
   }
+
+  .nuxt-link-exact-active {
+    @apply bg-gray-300;
+  }
 </style>
