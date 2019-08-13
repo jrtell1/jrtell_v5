@@ -44,7 +44,7 @@
   }
 
   .link {
-    @apply flex-1 block p-4 flex items-center justify-center;
+    @apply flex-1 block p-4 flex items-center justify-center whitespace-no-wrap;
     transition: all .2s ease-out;
   }
 

@@ -43,6 +43,10 @@
     color: #35495e;
   }
 
+  body {
+    margin-bottom: 100px;
+  }
+
   *,
   *:before,
   *:after {
