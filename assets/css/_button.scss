@@ -1,0 +1,9 @@
+.button {
+  @apply block my-6 bg-blue-700 text-white font-bold py-4 px-6 rounded-full text-center;
+  transition: all .2s ease-out;
+
+  &:hover {
+    transform: translateY(-1px);
+    @apply bg-blue-800;
+  }
+}

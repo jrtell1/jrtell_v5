@@ -52,14 +52,4 @@ export default {
     color: #526488;
     word-spacing: 5px;
   }
-
-  .button {
-    @apply block my-6 bg-blue-700 text-white font-bold py-4 px-6 rounded-full;
-    transition: all .2s ease-out;
-
-    &:hover {
-      transform: translateY(-1px);
-      @apply bg-blue-800;
-    }
-  }
 </style>
