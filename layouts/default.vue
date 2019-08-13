@@ -8,10 +8,10 @@
           alt="Me"
           key="portrait"
         >
-        <h1 class="title absolute" key="title">
+        <nuxt-link tag="h1" to="/" class="title absolute cursor-pointer" key="title">
           John-Robin Tell
-        </h1>
-        <h2 class="subtitle text-5xl absolute" key="subtitle">
+        </nuxt-link>
+        <h2 class="subtitle absolute" key="subtitle">
           Fullstack Developer
         </h2>
       </transition-group>
@@ -71,6 +71,7 @@
     padding-bottom: 15px;
     transition: all .25s ease-out;
     white-space: nowrap;
+    @apply text-5xl;
   }
 
   .index {
@@ -86,32 +87,82 @@
     .title {
       color: #35495e;
       left: 50%;
-      transform: translate(-50%, 250px);
+      font-size: 40px;
+      transform: translate(-50%, 280px);
     }
 
     .subtitle {
       color: #526488;
       left: 50%;
-      transform: translate(-50%, 290px);
+      transform: translate(-50%, 260px);
+      @apply text-3xl;
+    }
+  }
+
+  @screen md {
+    .index {
+      &.header {
+        text-shadow: 0px 0px 0px #292929;
+      }
+
+      .portrait {
+        left: 50%;
+        transform: translate(-50%, 90px);
+      }
+
+      .title {
+        color: #35495e;
+        left: 50%;
+        transform: translate(-50%, 250px);
+        font-size: 90px;
+      }
+
+      .subtitle {
+        color: #526488;
+        left: 50%;
+        transform: translate(-50%, 290px);
+        @apply text-5xl;
+      }
     }
   }
 
   .portrait {
     top: -40px;
-    left: 0;
-    transform: scale(0.55);
+    left: -45px;
+    transform: scale(0.45);
   }
 
   .title {
     top: -30px;
-    left: 40px;
-    transform: scale(0.55);
+    left: -60px;
+    transform: scale(0.45);
   }
 
   .subtitle {
     top: 35px;
-    left: 85px;
-    transform: scale(0.55);
+    left: -5px;
+    transform: scale(0.45);
+  }
+
+  @screen sm {
+    .portrait {
+      top: -40px;
+      left: -30px;
+      transform: scale(0.55);
+    }
+
+    .title {
+      top: -30px;
+      left: 0px;
+      transform: scale(0.55);
+    }
+
+    .subtitle {
+      top: 35px;
+      left: 45px;
+      transform: scale(0.55);
+    }
+
   }
 
   .page-enter-active {
