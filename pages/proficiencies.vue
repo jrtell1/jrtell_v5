@@ -63,8 +63,11 @@
       <div class="proficiencies__column">
         <ul class="proficiencies__list">
           <li>Docker</li>
+          <li>Netlify</li>
+          <li>Git</li>
           <li>Nginx</li>
           <li>Ubuntu/Linux</li>
+          <li>Cloudinary CDN</li>
         </ul>
       </div>
     </div>
