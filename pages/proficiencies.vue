@@ -13,7 +13,7 @@
         </ul>
       </div>
       <div class="proficiencies__column">
-        <h4 class="proficiencies__title">Frameworks</h4>
+        <h4 class="proficiencies__title">Frameworks and libraries</h4>
         <ul class="proficiencies__list">
           <li>VueJs</li>
           <li>NuxtJs</li>
@@ -42,7 +42,7 @@
         </ul>
       </div>
       <div class="proficiencies__column">
-        <h4 class="proficiencies__title">Frameworks</h4>
+        <h4 class="proficiencies__title">Frameworks and libraries</h4>
         <ul class="proficiencies__list">
           <li>Laravel/Lumen</li>
           <li>Socket.io</li>
