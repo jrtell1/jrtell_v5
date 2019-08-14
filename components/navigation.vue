@@ -5,7 +5,7 @@
       <nuxt-link to="/projects" class="link">Projects</nuxt-link>
       <div class="spacer"></div>
       <nuxt-link to="/history" class="link">Work history</nuxt-link>
-      <a href="https://github.com/jrtell1" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
     </div>
   </div>
 </template>
