@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation">
+  <div class="navigation overflow-x-auto">
     <div class="flex max-w-4xl mx-auto">
       <nuxt-link to="/" class="link">Home</nuxt-link>
       <nuxt-link to="/projects" class="link">Projects</nuxt-link>

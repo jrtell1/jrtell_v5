@@ -147,8 +147,8 @@
 
   .title {
     top: -30px;
-    left: -60px;
-    transform: scale(0.45);
+    left: -90px;
+    transform: scale(0.35);
   }
 
   .subtitle {
